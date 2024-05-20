@@ -28,9 +28,6 @@ function ContactComp (){
     
     return(
         <>
-
-        <div className="sec-contact">
-
         <NavbarComp/>
 
         <div className="container">
@@ -116,13 +113,7 @@ function ContactComp (){
     </div>
 
 
-
-</div>
-
-<div >
 <FooterComp/>
-</div>
-
         </>
         
 

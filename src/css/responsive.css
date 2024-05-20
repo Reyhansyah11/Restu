@@ -1411,8 +1411,8 @@ textarea {
 
 @media(max-width: 397px){
 
-    .navbar {
-        
+    .close-menu  {
+        top: 7px;
     }
     /* hero */
     .hero-section {
@@ -1597,6 +1597,7 @@ textarea {
     .about-section .content-left .profile .photo .photo-profile{
         width: 160px;
         position: relative;
+        left: 15px;
         top: -10px;
         padding-right: 7px;
     }
@@ -1616,6 +1617,10 @@ textarea {
       /* content left */
 
     /* content right */
+
+    .content-right {
+        margin-right: 0px;
+    }
 
     .content-right .about{
         padding: 10px;
@@ -1653,7 +1658,6 @@ textarea {
         padding: 20px;
         padding-left: 25px;
         padding-right: 0px;
-        width: 160px;
     }
 
     .content-right .roles .skill h3{
